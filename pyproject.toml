@@ -1,0 +1,22 @@
+[project]
+name = "sound-transmitter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "nelbruh05@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyaudiowpatch>=0.2.12.9",
+]
+
+[project.scripts]
+sound-transmitter = "sound_transmitter_pc:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "sound_transmitter_pc"
