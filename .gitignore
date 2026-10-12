@@ -4,6 +4,10 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+*.spec
+
+# Built binaries (exe, apk)
+release/
 
 # Environments
 .venv/
@@ -18,3 +22,4 @@ dist/
 .idea/
 .DS_Store
 Thumbs.db
+CLAUDE.md
