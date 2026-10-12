@@ -3,6 +3,7 @@ name = "sound-transmitter"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+license = "GPL-3.0-only"
 authors = [
     { email = "nelbruh05@gmail.com" }
 ]

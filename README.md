@@ -132,3 +132,19 @@ android/          the Android app (Kotlin, OkHttp, MediaCodec, AudioTrack)
 - **`opus_encoder_create failed`:** Opus only supports 8, 12, 16, 24 and 48 kHz. Set the Windows output device to 48000 Hz, or set `CODEC` to `pcm`.
 - **Something sounds wrong:** switch `CODEC` to `pcm` to rule out the codec.
 - **No log window:** the exe has no console. Read `sound-transmitter.log`, which it writes next to itself.
+
+## License
+
+Released under the **GNU General Public License v3.0**. See [LICENSE](LICENSE).
+
+### Third-party software
+
+| Component | License |
+|---|---|
+| [PyAudioWPatch](https://github.com/s0d3s/PyAudioWPatch) (audio capture) | Apache-2.0 |
+| [PyOgg](https://github.com/TeamPyOgg/PyOgg) and [libopus](https://opus-codec.org) (Opus encoding) | BSD-3-Clause |
+| [websockets](https://github.com/python-websockets/websockets) | BSD-3-Clause |
+| [pystray](https://github.com/moses-palmer/pystray) (tray icon) | LGPL-3.0 |
+| [Pillow](https://python-pillow.org) | MIT-CMU |
+| [PyInstaller](https://pyinstaller.org) (builds the exe) | GPL-2.0 with a bootloader exception |
+| [OkHttp](https://square.github.io/okhttp/) and AndroidX (Android app) | Apache-2.0 |
