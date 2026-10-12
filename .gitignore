@@ -6,8 +6,9 @@ build/
 dist/
 *.spec
 
-# Built binaries (exe, apk)
-release/
+# Built binaries: ignored, except the release APK
+release/*
+!release/*.apk
 
 # Environments
 .venv/
